@@ -1,0 +1,17 @@
+# Virtual environments (uv recreates these with `uv sync`)
+.venv
+
+# Python cache
+__pycache__
+.pyc
+
+# Jupyter
+.ipynb_checkpoints
+
+# Editor  OS
+.vscode
+.DS_Store
+Thumbs.db
+
+# Secrets (never commit these)
+.env
